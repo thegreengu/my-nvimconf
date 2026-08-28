@@ -9,10 +9,13 @@ M.base46 = {
   theme = "ayu_dark",
   hl_override = {
     CursorLine = {
-      bg = "#313244",
+      bg = "#17171f",
     },
     NvimTreeCursorLine = {
-      bg = "#313244",
+      bg = "#1b1c24",
+    },
+    Visual = {
+      bg = "#2e2e2e"
     },
   },
 }

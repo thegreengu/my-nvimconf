@@ -9,7 +9,5 @@ vim.diagnostic.config({
   update_in_insert = false,
 })
 
-vim.opt.cursorlineopt = "both"
-
--- local o = vim.o
--- o.cursorlineopt ='both' -- to enable cursorline!
+local o = vim.o
+o.cursorlineopt ='both'
