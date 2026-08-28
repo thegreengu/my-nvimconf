@@ -8,8 +8,8 @@ vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, { desc = "[L
 vim.keymap.set({ "i", "n" }, "<leader>rf", vim.lsp.buf.format, { desc = "[LSP] Reformat code" .. disclaimer })
 
 
-vim.keymap.set({"n", "v"}, "<Up>", "<Nop>")
-vim.keymap.set({"n", "v"}, "<Down>", "<Nop>")
-vim.keymap.set({"n", "v"}, "<Left>", "<Nop>")
-vim.keymap.set({"n", "v"}, "<Right>", "<Nop>")
+vim.keymap.set({"n", "v"}, "<Up>", "<C-w>k")
+vim.keymap.set({"n", "v"}, "<Down>", "<C-w>j")
+vim.keymap.set({"n", "v"}, "<Left>", "<C-w>h")
+vim.keymap.set({"n", "v"}, "<Right>", "<C-w>l")
 
