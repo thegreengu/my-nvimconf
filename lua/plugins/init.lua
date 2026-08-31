@@ -35,6 +35,10 @@ return {
       end
     end,
   },
+  {
+    "L3MON4D3/LuaSnip",
+    build = "make install_jsregexp",
+  }
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 

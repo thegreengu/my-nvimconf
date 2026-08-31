@@ -7,6 +7,10 @@ return {
       view = {
         width = 30,
       },
+      git = {
+        enable = true,
+        ignore = false,
+      },
     },
 
     config = function(_, opts)
@@ -20,4 +24,3 @@ return {
     end,
   },
 }
-
